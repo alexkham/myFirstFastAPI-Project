@@ -18,6 +18,10 @@ def ask():
 def ask_next():
     return {"question":"who are you  NEXT?"}
 
+@app.get("/ask-next2")
+def ask_next2():
+    return {"question":"who are you  NEXT-2?"}
+
 
 @app.get("/add/{x}/{y}")
 def add(x,y):
