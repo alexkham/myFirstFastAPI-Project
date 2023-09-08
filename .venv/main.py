@@ -13,7 +13,7 @@ def ask():
     return {"question":"who are you?"}
 
 
-@app.get("/add")
+@app.get("/add/{x}/{y}")
 def add(x,y):
     result=float(x)+float(y)
     
