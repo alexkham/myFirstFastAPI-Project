@@ -18,3 +18,9 @@ def add(x,y):
     result=float(x)+float(y)
     
     return {"result":str(result)}
+
+@app.get("/multiply")
+def multiply(x,y):
+    result=float(x)*float(y)
+    
+    return {"result":str(result)}
