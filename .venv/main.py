@@ -14,7 +14,7 @@ def ask():
 
 
 @app.get("/add")
-def home(x,y):
+def add(x,y):
     result=float(x)+float(y)
     
     return {"result":str(result)}
