@@ -31,4 +31,3 @@ def multiply(x,y):
     
     return {"result":str(result)}
 
-from app import app as application
