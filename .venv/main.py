@@ -11,3 +11,10 @@ def home():
 @app.get("/ask")
 def ask():
     return {"question":"who are you?"}
+
+
+@app.get("/add")
+def home(x,y):
+    result=float(x)+float(y)
+    
+    return {"result":str(result)}
