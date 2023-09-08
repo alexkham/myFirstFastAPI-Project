@@ -12,6 +12,10 @@ def home():
 def ask():
     return {"question":"who are you?"}
 
+@app.get("/ask-next")
+def ask_next():
+    return {"question":"who are you  NEXT?"}
+
 
 @app.get("/add/{x}/{y}")
 def add(x,y):
