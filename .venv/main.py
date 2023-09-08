@@ -1,5 +1,7 @@
 #Fast API is awesome
 from fastapi import FastAPI
+import app
+
 
 app=FastAPI()
 
@@ -28,3 +30,5 @@ def multiply(x,y):
     result=float(x)*float(y)
     
     return {"result":str(result)}
+
+from app import app as application
