@@ -35,3 +35,9 @@ def multiply(x,y):
     
     return {"result":str(result)}
 
+@app.get("/divide")
+def multiply(x,y):
+    result=float(x)/float(y)
+    
+    return {"result":str(result)}
+
