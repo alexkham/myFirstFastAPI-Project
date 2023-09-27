@@ -20,7 +20,7 @@ def ask_next():
 
 @app.get("/ask-next2")
 def ask_next2():
-    return {"question":"who are you  NEXT-2?"}
+    return {"question":"who are you   today NEXT-2?"}
 
 
 @app.get("/add/{x}/{y}")
